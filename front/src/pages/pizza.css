@@ -1,0 +1,38 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pizza_name {
+    font-size: 35px;
+}
+
+#pizza_desc {
+    font-size: 18px;
+}
+
+#pizza_ingredients{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pizza_ingredients h4{
+    font-size: 26px;
+}
+
+#price_button {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn-add {
+    width: 100px;
+    margin-left: 45px;
+    padding: 8px;
+    font-size: 18px;
+    gap: 10px;
+}

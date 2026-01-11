@@ -1,0 +1,129 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.container h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 7px 10px;
+}
+
+.btn_left {
+  display: flex;
+}
+
+.header {
+  background-image: url(/header.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 16px;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 5px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 100%;
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+}
+
+.card-header h3 {
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.card-body h4 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+}
+
+.card-footer p {
+  font-size: 28px;
+}
+
+.card-footer button {
+  width: 90px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 0px 30px;
+}
+
+#cart {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-left: 227px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+}
+
+.footer p {
+  color: white;
+  margin: 0px;
+}
